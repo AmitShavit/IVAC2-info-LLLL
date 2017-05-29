@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>EBBU ATC Info</title>
+        <link rel="stylesheet" type="text/css" href="ATCinfo.css">
+    </head>
+
+    <body>
+
+       <div class="lowmenubar">
+
+                <div id="25R" class="lowmenubarbutton">
+                        <a href="ebbrdep25r.html" target="frame_3">25R</a>
+                </div>
+                <div id="25L" class="lowmenubarbutton">
+                        <a href="ebbrdep25l.html" target="frame_3">25L</a>
+                </div>
+                <div id="07R" class="lowmenubarbutton">
+                        <a href="ebbrdep07r.html" target="frame_3">07R</a>
+                </div>
+                <div id="07L" class="lowmenubarbutton">
+                        <a href="ebbrdep07l.html" target="frame_3">07L</a>
+                </div>
+                <div id="01" class="lowmenubarbutton">
+                        <a href="ebbrdep01.html" target="frame_3">01</a>
+                </div>
+                <div id="19" class="lowmenubarbutton">
+                        <a href="ebbrdep19.html" target="frame_3">19</a>
+                </div>
+                
+        </div>
+
+
+         <script type="text/javascript" src="ATCinfo.js"></script>
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script type="text/javascript">
+        $('.topbutton').click(function() {
+                $('.topbutton').removeClass('topbutton-active');
+                $(this).addClass('topbutton-active');
+                });
+
+        $('.midmenubarbutton').click(function() {
+                $('.midmenubarbutton').removeClass('midmenubarbutton-active');
+                $(this).addClass('midmenubarbutton-active');
+                });
+
+        $('.lowmenubarbutton').click(function() {
+                $('.lowmenubarbutton').removeClass('lowmenubarbutton-active');
+                $(this).addClass('lowmenubarbutton-active');
+                });
+
+        </script>
+    </body>
+</html>
+

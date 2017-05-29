@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>EBBU ATC Info</title>
+        <link rel="stylesheet" type="text/css" href="ATCinfo.css">
+
+    </head>
+    <body>
+        
+        <div class="container">
+
+        	<div class="topmenubar">
+
+        		<div id="ebbr"class="topbutton">
+        			<a href="ebbrdepmenu.html" target="frame_1" onclick="resetiframe2()">EBBR</a>
+        		</div>
+        		<div id="rwyinfo"class="topbutton">
+        			<a href="ebbrrwy.html" target="frame_3" onclick="resetiframe2()">RWY</a>
+        		</div>
+        		<div id="EMERG"class="topbutton">
+        			<a href="emerg.html" target="frame_3" onclick="resetiframe2()">EMERG</a>
+        		</div>
+        		<div id="NOTAM"class="topbutton">
+        			<a href="http://bit.ly/2s4nt6f" target="frame_3" onclick="resetiframe2()">NOTAM</a>
+				</div>
+        		<div id="extra"class="topbutton">
+        			<a href="">EXTRA</a>
+        		</div>
+        	</div>
+
+        	<div id="midmenubar">
+        		<iframe id="frame_1" name="frame_1" src=""></iframe>
+        	</div>
+        	<!--<div id="lowmenubar">
+        		<iframe id="frame_2" name="frame_2" src=""></iframe>
+        	</div>-->
+        	<div id="content">
+        		<iframe id="frame_3" name="frame_3" src=""></iframe>
+        	</div>
+
+        </div>
+
+
+
+        <script type="text/javascript" src="ATCinfo.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script type="text/javascript">
+        $('.topbutton').click(function() {
+			$('.topbutton').removeClass('topbutton-active');
+    		$(this).addClass('topbutton-active');
+		});
+
+        $('.midmenubarbutton').click(function() {
+			$('.midmenubarbutton').removeClass('midmenubarbutton-active');
+    		$(this).addClass('midmenubarbutton-active');
+		});
+
+		$('.lowmenubarbutton').click(function() {
+			$('.lowmenubarbutton').removeClass('lowmenubarbutton-active');
+    		$(this).addClass('lowmenubarbutton-active');
+		});
+
+		</script>
+    </body>
+</html>

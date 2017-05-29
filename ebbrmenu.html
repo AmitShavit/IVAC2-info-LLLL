@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>EBBU ATC Info</title>
+        <link rel="stylesheet" type="text/css" href="ATCinfo.css">
+    </head>
+
+    <body>
+
+       <div class="midmenubar">
+
+
+                <div id="DEP"class="midmenubarbutton">
+                        <a href="ebbrdepmenu.html" target="frame_2">DEP</a>
+                </div>
+                <div id="ARR"class="midmenubarbutton">
+                        <a href="" target="frame_2">ARR</a>
+                </div>
+                
+                
+        </div>
+
+
+        <script type="text/javascript" src="ATCinfo.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script type="text/javascript">
+        $('.topbutton').click(function() {
+                $('.topbutton').removeClass('topbutton-active');
+                $(this).addClass('topbutton-active');
+                });
+
+        $('.midmenubarbutton').click(function() {
+                $('.midmenubarbutton').removeClass('midmenubarbutton-active');
+                $(this).addClass('midmenubarbutton-active');
+                });
+
+        $('.lowmenubarbutton').click(function() {
+                $('.lowmenubarbutton').removeClass('lowmenubarbutton-active');
+                $(this).addClass('lowmenubarbutton-active');
+                });
+
+        </script>
+
+    </body>
+</html>
+

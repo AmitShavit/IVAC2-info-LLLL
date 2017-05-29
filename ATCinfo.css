@@ -1,0 +1,141 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #7d7d7d;
+}
+
+a, a:hover, a:visited, a:active {
+	text-decoration: none;
+	color: inherit;
+}
+
+.container {
+	width: 800px;
+	height: 600px;
+	background-color: #7d7d7d;
+	border: 1px solid #222;
+}
+
+.topmenubar {
+	height: 24px;
+}
+
+.topbutton {
+	height: 24px;
+	width: 50px;
+	background-image: url("images/top-button.png");
+	font-family: arial;
+	font-size: 12px;
+	display: table;
+	text-align: center;
+	float: left;
+}
+
+.topbutton-active, .topbutton:hover {
+	background-image: url("images/top-button-active.png");
+}
+
+.topbutton a {
+	display: table-cell;
+	vertical-align: middle;
+	width: 50px;
+	height: 24px;
+}
+
+.midmenubarbutton a, .lowmenubarbutton a {
+	display: table-cell;
+	vertical-align: middle;
+	width: 50px;
+	height: 16px;
+}
+
+#frame_1 {
+	border: none;
+	height: 16px;
+	width: 500px;
+	padding: 0;
+	margin: 0;
+	background-image: url("images/button-small-active.png");
+}
+
+.midmenubar, .lowmenubar {
+	height: 16px;
+	width: 500px;
+	font-size: 10px;
+
+}
+
+.midmenubarbutton, .lowmenubarbutton {
+	background-image: url("images/button-small.png");
+	height: 16px;
+	width: 50px;
+	display: table;
+	text-align: center;
+	float: left;
+}
+
+.midmenubarbutton:hover, .midmenubarbutton-active, .lowmenubarbutton:hover, .lowmenubarbutton-active {
+	background-image: url("images/button-small-active.png");
+}
+
+#frame_2{
+	height: 16px;
+	width: 500px;
+	border: none;
+	background-image: url("images/button-small-active.png");
+
+}
+#frame_3{
+	height: 560px;
+	width: 790px;
+	border: none;
+}
+
+#content, .content {
+	color: white;
+	font-size: 16px;
+	padding-right: 10px;
+	padding-left: 5px;
+}
+
+.sidtable, .sqtable {
+	font-size: 16px;
+	text-align: left;
+	color: inherit;
+}
+
+.sqtable {
+	text-align: left;
+}
+
+.sidtable td, .sqtable td {
+	padding-right: 10px;
+}
+
+#tabletop, .sqtabletop {
+	font-weight: bold;
+}
+
+ul {
+	list-style-type: circle;
+}
+
+b {
+	font-weight: bolder;
+}
+
+.emergtype {
+	border: 1px solid #eeeeee;
+	padding: 3px;
+	margin: 5px;
+	float: left;
+}
+
+.rwytable {
+	font-size: 16px;
+	color: #eeeeee;
+}
+
+.rwytable td {
+	padding-right: 10px;
+}
