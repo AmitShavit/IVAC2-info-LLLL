@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>EBBU ATC Info</title>
+        <link rel="stylesheet" type="text/css" href="ATCinfo.css">
+    </head>
+
+    <body>
+
+       <div class="lowmenubar">
+
+                <div id="26" class="lowmenubarbutton">
+                        <a href="llbgdep26.html" target="frame_3">26</a>
+                </div>
+                <div id="08" class="lowmenubarbutton">
+                        <a href="llbgdep08.html" target="frame_3">08</a>
+                </div>
+                <div id="30" class="lowmenubarbutton">
+                        <a href="llbgdep30.html" target="frame_3">30</a>
+                </div>
+                <div id="12" class="lowmenubarbutton">
+                        <a href="llbgdep12.html" target="frame_3">12</a>
+                </div>
+                <div id="21" class="lowmenubarbutton">
+                        <a href="llbgdep21.html" target="frame_3">21</a>
+                </div>
+                <div id="03" class="lowmenubarbutton">
+                        <a href="llbgdep03.html" target="frame_3">03</a>
+                </div>
+
+        </div>
+
+
+         <script type="text/javascript" src="ATCinfo.js"></script>
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script type="text/javascript">
+        $('.topbutton').click(function() {
+                $('.topbutton').removeClass('topbutton-active');
+                $(this).addClass('topbutton-active');
+                });
+
+        $('.midmenubarbutton').click(function() {
+                $('.midmenubarbutton').removeClass('midmenubarbutton-active');
+                $(this).addClass('midmenubarbutton-active');
+                });
+
+        $('.lowmenubarbutton').click(function() {
+                $('.lowmenubarbutton').removeClass('lowmenubarbutton-active');
+                $(this).addClass('lowmenubarbutton-active');
+                });
+
+        </script>
+    </body>
+</html>
